@@ -30,7 +30,6 @@ jobs:
           echo "node: $(node -v)"
           echo "npm: $(npm -v)"
           echo "pnpm: $(pnpm -v)"
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
