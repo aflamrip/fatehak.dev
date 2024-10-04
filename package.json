@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "BUILD=development astro dev",
+    "build": "BUILD=production astro build",
     "build:dev": "BUILD=development astro build",
     "build:prod": "BUILD=production astro build",
     "preview": "astro preview",
